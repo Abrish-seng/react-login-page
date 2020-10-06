@@ -54,16 +54,6 @@ input::placeholder {
   color: #999;
 }
 
-input.error {
-  border: 1px solid red;
-}
-
-.errorMessage {
-  color: red;
-  font-size: 0.75em;
-  display: relative;
-}
-
 .firstName {
   margin-right: 1%;
 }
