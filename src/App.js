@@ -1,24 +1,16 @@
+import { AppBar } from 'material-ui';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <h2>Create Account</h2>
+      <form onSubmit={this.handleSubmit} noValidate>
+       <div className="firstName">
+       <label htmlFor="firstName">First Name</label>
+       <input type="text"  className="" placeholder="First Name" name="firstName"/>
+       </div>
+      </form>
     </div>
   );
 }
